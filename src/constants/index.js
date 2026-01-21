@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   typescript,
+  cSharp,
   html,
   css,
   angular,
@@ -15,8 +16,11 @@ import {
   docker,
   colsa,
   millennium,
+  GaN,
   ludem,
   port,
+  trijam,
+  pettingFarm,
   construction,
   threejs,
 } from "../assets";
@@ -50,7 +54,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
@@ -75,6 +79,10 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "C#",
+    icon: cSharp,
   },
   {
     name: "Vue JS",
@@ -108,11 +116,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer III",
+    company_name: "Geeks and Nerds (GaN) Corporation",
+    icon: GaN,
+    iconBg: "#E6DEDD",
+    date: "sep 2023 - Present",
+    points: [
+      "Develop and maintain Agile Forge Planner, an Angular and C# .NET full-stack DoD Test Resource Management Center application used by Redstone Test Center leadership and engineers to collaboratively plan Test and Evaluation events.",
+      "Created a custom SCSS theme and used Angular UI component library PrimeNG to update frontend design across multiple applications for brand cohesion.",
+      "Mentor peers and juniors on Angular architecture topics to improve organizational-wide understanding of frontend frameworks and best practices.",
+      "Utilize Cesium to display complex geospatial data in a simplified manner for easy planning, interfacing with containerized and server-hosted Tile Maps.",
+      "Conduct code reviews, present sprint demos to clients, and run sprint retrospectives, demonstrating leadership readiness and actively developing skills towards a lead position.",
+      "Produce RESTful endpoints for new features with the support of Entity Framework to manage database interactions.",
+    ],
+  },
+  {
     title: "Software Engineer II",
     company_name: "Millennium Corporation",
     icon: millennium,
     iconBg: "#E6DEDD",
-    date: "Nov 2020 - Present",
+    date: "Nov 2020 - Sep 2023",
     points: [
       "Front-end engineer on event planning and management web app using Vue.js and Golang postgreSQL tech stack.",
       "Expeditiously develop engineering prototypes to pitch as solutions to client needs/problems.",
@@ -139,6 +162,31 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Hogan's Place Petting Farm Website",
+    description:
+      "Created and maintain Family's petting farm website, created with wordpress to have familiar interface for users of the website.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: pettingFarm,
+    demo_link: "https://hogansplacepettingfarm.com/",
+  },
   {
     name: "Ludem Dare 45 entry",
     description:
@@ -185,6 +233,28 @@ const projects = [
     image: port,
     demo_link: "https://JacobSchoen.github.io/Portfolio",
     source_code_link: "https://github.com/JacobSchoen/Portfolio",
+  },
+  {
+    name: "Trijam #226 entry",
+    description:
+      "Web-based Game and Watch math inspired game that was created in a 3 hour game Jam for the theme 'You gain a little, you lose a little'. Made with barebones Javascript, html and css to challenge myself how creative I could be with minial libraries/Frameworks/tools at my disposal",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: trijam,
+    demo_link: "https://jacobschoen.itch.io/math-attack",
+    source_code_link: "https://github.com/JacobSchoen/Trijam_226",
   },
   {
     name: "A State Of Antiquity",

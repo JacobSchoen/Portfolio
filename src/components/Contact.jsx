@@ -31,8 +31,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_8rga42l",
-        "template_n6tnsm5",
+        "service_ctzaf2j",
+        "template_fs7srqe",
         {
           from_name: form.name,
           to_name: "Jacob",
@@ -40,7 +40,7 @@ const Contact = () => {
           to_email: "Jacob.Schoen@gmail.com",
           message: form.message,
         },
-        "sUbrElKsSJx5kVcc0"
+        "25i0pnAYyegAiLphS",
       )
       .then(
         () => {
@@ -55,7 +55,7 @@ const Contact = () => {
           console.log(error);
 
           alert("Somthing went wrong.");
-        }
+        },
       );
   };
 

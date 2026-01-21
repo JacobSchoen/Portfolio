@@ -19,13 +19,17 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cSharp from "./tech/cSharp.png";
 
 import colsa from "./company/colsa.png";
 import millennium from "./company/millennium.png";
+import GaN from "./company/GaN.png";
 
 import ludem from "./ludem.jpg";
 import port from "./portfolio.jpg";
 import construction from "./construction.jpg";
+import trijam from "./trijam.jpg";
+import pettingFarm from "./pettingFarm.jpg";
 
 export {
   logo,
@@ -50,7 +54,11 @@ export {
   threejs,
   colsa,
   millennium,
+  GaN,
   ludem,
   port,
   construction,
+  trijam,
+  pettingFarm,
+  cSharp,
 };

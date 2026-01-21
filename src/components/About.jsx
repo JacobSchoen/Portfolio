@@ -40,14 +40,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software engineer with 4.5 years of experience building
-        web apps in an agile team environment. Over the years I have gained
-        experience in JavaScript and TypeScript, expertise in frameworks like
-        Vue, Angular, and React. As well I have extensive understanding with
-        using HTML and CSS and libraries chart.js and three.js. I adapt and
-        learn quick and really enjoy the process getting to the core of a
-        product owners wants and needs and creating a roadmap to get there. I
-        have collaborated in many software teams closely with product managers,
+        I'm a life long learner and a skilled Full Stack Software Engineer with
+        7 years of experience building web apps in an agile team environment.
+        Over the years I have gained Front-end experience in JavaScript and
+        TypeScript, expertise in frameworks Vue, Angular, and React. As well I
+        have extensive understanding with using HTML and CSS and libraries
+        cesium, VueX, chart.js, bootstrap, tailwind, and three.js. Over on the
+        backend I have successfully shipped products using a C# .NET Entity
+        Framework tech stack utilizing postgreSQL database. I adapt and learn
+        quick and really enjoy the process getting to the core of a product
+        owners wants and needs and creating a roadmap to get there. I have
+        collaborated in many software teams closely with product managers,
         designers, and clients to create and deliever efficient and scalable
         solutions.
       </motion.p>
