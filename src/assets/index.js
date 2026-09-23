@@ -30,6 +30,7 @@ import port from "./portfolio.jpg";
 import construction from "./construction.jpg";
 import trijam from "./trijam.jpg";
 import pettingFarm from "./pettingFarm.jpg";
+import scrummage from "./scrummage.png"
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   construction,
   trijam,
   pettingFarm,
+  scrummage,
   cSharp,
 };

@@ -21,6 +21,7 @@ import {
   port,
   trijam,
   pettingFarm,
+  scrummage,
   construction,
   threejs,
 } from "../assets";
@@ -162,6 +163,31 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Scrummage",
+    description:
+      "Created a scrum poker web app that you can connect with coworkers and have planning sessions",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },{
+        name: "Supabase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: scrummage,
+    demo_link: "https://scrummage-ten.vercel.app/lobby",
+    source_code_link: "https://github.com/JacobSchoen/Scrummage",
+  },
   {
     name: "Hogan's Place Petting Farm Website",
     description:
