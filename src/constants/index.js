@@ -17,6 +17,7 @@ import {
   colsa,
   millennium,
   GaN,
+  Summit,
   ludem,
   port,
   trijam,
@@ -117,48 +118,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer III",
-    company_name: "Geeks and Nerds (GaN) Corporation",
-    icon: GaN,
-    iconBg: "#E6DEDD",
-    date: "sep 2023 - Present",
-    points: [
-      "Develop and maintain Agile Forge Planner, an Angular and C# .NET full-stack DoD Test Resource Management Center application used by Redstone Test Center leadership and engineers to collaboratively plan Test and Evaluation events.",
-      "Created a custom SCSS theme and used Angular UI component library PrimeNG to update frontend design across multiple applications for brand cohesion.",
-      "Mentor peers and juniors on Angular architecture topics to improve organizational-wide understanding of frontend frameworks and best practices.",
-      "Utilize Cesium to display complex geospatial data in a simplified manner for easy planning, interfacing with containerized and server-hosted Tile Maps.",
-      "Conduct code reviews, present sprint demos to clients, and run sprint retrospectives, demonstrating leadership readiness and actively developing skills towards a lead position.",
-      "Produce RESTful endpoints for new features with the support of Entity Framework to manage database interactions.",
-    ],
-  },
-  {
-    title: "Software Engineer II",
-    company_name: "Millennium Corporation",
-    icon: millennium,
-    iconBg: "#E6DEDD",
-    date: "Nov 2020 - Sep 2023",
-    points: [
-      "Front-end engineer on event planning and management web app using Vue.js and Golang postgreSQL tech stack.",
-      "Expeditiously develop engineering prototypes to pitch as solutions to client needs/problems.",
-      "Provide guidance and knowledge transfer to junior developers for development tasks and unit testing.",
-      "Design & implement comprehensive unit tests using Vue Test Utils along with sonarqube to help increase unit test coverage on projects, overall increasing code quality and reducing code smell.",
-      "Lead sprint review meetings for a cross-functional team of developers, designers, and product managers, resulting in increased alignment on project goals and improved collaboration.",
-    ],
-  },
-  {
     title: "Software Engineer",
-    company_name: "COLSA corporation",
-    icon: colsa,
+    company_name: "Summit Human Capital",
+    icon: Summit,
     iconBg: "#E6DEDD",
-    date: "Feb 2019 - Nov 2020",
+    date: "April 2026 - Present",
     points: [
-      "Developed, tested, and implemented software in an Agile team environment.",
-      "Contributed with team to develop and maintain a contract management software to help  streamline and improve efficiency for large user base using a Angular and C# tech stack.",
-      "Used Angular framework to develop and improve user experience on the front end.",
-      "Operated in a software development process that is accredited against ISO 9001 and CMMI Dev Level 3.",
-      "Communicated concisely and regularly with daily stand-ups to team members. Help provide, present, and explain information professionally to clients during sprint reviews.",
-      "Created REST endpoints using C# for interacting with the databases.",
+      "Modernizing National Background Investigation Services (NBIS) system within React/TypeScript, Node.js, Postgres, and AWS environment / ecosystem, replacing legacy form infrastructure with scalable, maintainable applications.",
+      "Established and maintaining 80%+ unit test coverage across three production applications, strengthening code reliability, regression protection, and long-term maintainability.",
+      "Optimizing a React application to reliably support 1,000-2,000 users per minute with consistentresponse times and UI performance, utilizing the React Compiler for automatic memoization and render optimization.",
+      "Architect reusable, abstract React components leveraging module federation that standardized complex government form workflows, reducing feature implementation time and unit testing effort by approximately 33% through shared design patterns.",
+      "Rapidly develop from scratch and delivered a production-scale application on a four month timeline while maintaining clean, maintainable code and high standards for performance and quality.",
+      "Simplified extensive and complex government form specifications into a concise, schema-driven model, streamlining validation logic and reducing complexity across the application stack."
     ],
+  },
+{
+  title: "Software Engineer III",
+    company_name: "Geeks and Nerds (GaN) Corporation",
+      icon: GaN,
+        iconBg: "#E6DEDD",
+          date: "sep 2023 - April 2026",
+            points: [
+              "Develop and maintain Agile Forge Planner, an Angular and C# .NET full-stack DoD Test Resource Management Center application used by Redstone Test Center leadership and engineers to collaboratively plan Test and Evaluation events.",
+              "Created a custom SCSS theme and used Angular UI component library PrimeNG to update frontend design across multiple applications for brand cohesion.",
+              "Mentor peers and juniors on Angular architecture topics to improve organizational-wide understanding of frontend frameworks and best practices.",
+              "Utilize Cesium to display complex geospatial data in a simplified manner for easy planning, interfacing with containerized and server-hosted Tile Maps.",
+              "Conduct code reviews, present sprint demos to clients, and run sprint retrospectives, demonstrating leadership readiness and actively developing skills towards a lead position.",
+              "Produce RESTful endpoints for new features with the support of Entity Framework to manage database interactions.",
+            ],
+  },
+{
+  title: "Software Engineer II",
+    company_name: "Millennium Corporation",
+      icon: millennium,
+        iconBg: "#E6DEDD",
+          date: "Nov 2020 - Sep 2023",
+            points: [
+              "Front-end engineer on event planning and management web app using Vue.js and Golang postgreSQL tech stack.",
+              "Expeditiously develop engineering prototypes to pitch as solutions to client needs/problems.",
+              "Provide guidance and knowledge transfer to junior developers for development tasks and unit testing.",
+              "Design & implement comprehensive unit tests using Vue Test Utils along with sonarqube to help increase unit test coverage on projects, overall increasing code quality and reducing code smell.",
+              "Lead sprint review meetings for a cross-functional team of developers, designers, and product managers, resulting in increased alignment on project goals and improved collaboration.",
+            ],
+  },
+{
+  title: "Software Engineer",
+    company_name: "COLSA corporation",
+      icon: colsa,
+        iconBg: "#E6DEDD",
+          date: "Feb 2019 - Nov 2020",
+            points: [
+              "Developed, tested, and implemented software in an Agile team environment.",
+              "Contributed with team to develop and maintain a contract management software to help  streamline and improve efficiency for large user base using a Angular and C# tech stack.",
+              "Used Angular framework to develop and improve user experience on the front end.",
+              "Operated in a software development process that is accredited against ISO 9001 and CMMI Dev Level 3.",
+              "Communicated concisely and regularly with daily stand-ups to team members. Help provide, present, and explain information professionally to clients during sprint reviews.",
+              "Created REST endpoints using C# for interacting with the databases.",
+            ],
   },
 ];
 
@@ -179,7 +195,7 @@ const projects = [
       {
         name: "Tailwind",
         color: "pink-text-gradient",
-      },{
+      }, {
         name: "Supabase",
         color: "orange-text-gradient",
       },

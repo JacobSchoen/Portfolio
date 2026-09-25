@@ -24,6 +24,7 @@ import cSharp from "./tech/cSharp.png";
 import colsa from "./company/colsa.png";
 import millennium from "./company/millennium.png";
 import GaN from "./company/GaN.png";
+import Summit from "./company/Summit.jpg";
 
 import ludem from "./ludem.jpg";
 import port from "./portfolio.jpg";
@@ -56,6 +57,7 @@ export {
   colsa,
   millennium,
   GaN,
+  Summit,
   ludem,
   port,
   construction,
